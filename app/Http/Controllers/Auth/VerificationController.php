@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Http\Controllers\Auth;
+namespace prueba2\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

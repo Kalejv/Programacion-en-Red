@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Providers;
+namespace prueba2\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Tecno\Model' => 'Tecno\Policies\ModelPolicy',
+        'prueba2\Model' => 'prueba2\Policies\ModelPolicy',
     ];
 
     /**

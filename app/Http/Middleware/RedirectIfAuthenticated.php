@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Http\Middleware;
+namespace prueba2\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

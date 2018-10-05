@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Tecno\User::class,
+            'model' => prueba2\User::class,
         ],
 
         // 'users' => [

@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Tecno\Providers\AppServiceProvider::class,
-        Tecno\Providers\AuthServiceProvider::class,
-        // Tecno\Providers\BroadcastServiceProvider::class,
-        Tecno\Providers\EventServiceProvider::class,
-        Tecno\Providers\RouteServiceProvider::class,
+        prueba2\Providers\AppServiceProvider::class,
+        prueba2\Providers\AuthServiceProvider::class,
+        // prueba2\Providers\BroadcastServiceProvider::class,
+        prueba2\Providers\EventServiceProvider::class,
+        prueba2\Providers\RouteServiceProvider::class,
 
     ],
 

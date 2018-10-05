@@ -1,8 +1,8 @@
 <?php
 
-namespace Tecno\Http\Controllers\Auth;
+namespace prueba2\Http\Controllers\Auth;
 
-use Tecno\Http\Controllers\Controller;
+use prueba2\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

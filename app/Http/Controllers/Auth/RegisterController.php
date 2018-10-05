@@ -1,9 +1,9 @@
 <?php
 
-namespace Tecno\Http\Controllers\Auth;
+namespace prueba2\Http\Controllers\Auth;
 
-use Tecno\User;
-use Tecno\Http\Controllers\Controller;
+use prueba2\User;
+use prueba2\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Tecno\User
+     * @return \prueba2\User
      */
     protected function create(array $data)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Providers;
+namespace prueba2\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Tecno\Http\Controllers';
+    protected $namespace = 'prueba2\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

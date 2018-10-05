@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Http\Controllers;
+namespace prueba2\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

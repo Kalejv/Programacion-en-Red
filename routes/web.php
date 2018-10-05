@@ -11,17 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('prueba', 'PruebaController@prueba');
+Route::get('/', 'pruebaController@index');
 
-Route::resource ('trainers', 'TrainerController');
+Route::resource('prueba', 'UserController');
 
-Route::get ('/name/{nom}/lastname/{apel}', function($nom,$apel){
-	return 'Yo soy '. $nom .' '. $apel;
-});
-Route::get('/mi_ruta', function (){
-	return 'Aloha';
-});
+
+Route::get ('/name/{name}/apellido/{ap?}', 'pruebaController@index2');
+
+Route::get ('/mi_ruta', 'pruebaController@index3');

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Exceptions;
+namespace prueba2\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

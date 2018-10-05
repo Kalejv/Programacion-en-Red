@@ -1,6 +1,6 @@
 <?php
 
-namespace Tecno\Providers;
+namespace prueba2\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;
